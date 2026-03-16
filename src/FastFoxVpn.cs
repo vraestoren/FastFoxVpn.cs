@@ -7,6 +7,7 @@ namespace FastFoxVpnApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://api.fastfoxvpn.com/api/v1";
+        
         public FastFoxVpn()
         {
             httpClient = new HttpClient();
